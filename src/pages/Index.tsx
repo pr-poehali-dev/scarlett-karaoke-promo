@@ -19,7 +19,7 @@ export default function Index() {
   };
 
   const openWhatsApp = () => {
-    window.open('https://wa.me/79999999999?text=Здравствуйте!%20Хочу%20забронировать%20стол%20на%20Новый%20год%20в%20Scarlett', '_blank');
+    window.open('https://wa.me/79180630808?text=Здравствуйте!%20Хочу%20забронировать%20стол%20на%20Новый%20год%20в%20Scarlett', '_blank');
   };
 
   const benefits = [
@@ -279,7 +279,7 @@ export default function Index() {
               <CardContent className="p-8">
                 <Icon name="MapPin" size={32} className="text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Адрес</h3>
-                <p className="text-muted-foreground">г. Анапа, ул. Крымская, 123</p>
+                <p className="text-muted-foreground">г. Анапа, ул. Ленина, 154 Б</p>
               </CardContent>
             </Card>
 
@@ -287,7 +287,7 @@ export default function Index() {
               <CardContent className="p-8">
                 <Icon name="Phone" size={32} className="text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Телефон</h3>
-                <p className="text-muted-foreground">+7 (999) 999-99-99</p>
+                <p className="text-muted-foreground">+7 918 063-08-08</p>
               </CardContent>
             </Card>
 
@@ -295,7 +295,7 @@ export default function Index() {
               <CardContent className="p-8">
                 <Icon name="Clock" size={32} className="text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Режим работы</h3>
-                <p className="text-muted-foreground">Ежедневно с 18:00 до 06:00</p>
+                <p className="text-muted-foreground">Вс-Чт: 17:00 — 03:00<br />Пт-Сб: 17:00 — 05:00</p>
               </CardContent>
             </Card>
 
